@@ -1,0 +1,17 @@
+{
+    "SERVER_PORT": 3000,
+    "dbConfig": {
+        "host": "localhost",
+        "port": 27017,
+        "dbName": "githubDataMetric"
+    },
+    "sonarqubeConfig": {
+        "baseurl": "http://localhost:9000/api",
+        "projectKey": "com.mt:maven-web-application",
+        "Authorization": "Basic YWRtaW46YWRtaW4="   
+    },
+    "githubConfig": {
+        "baseurl": "https://api.github.com"
+          
+    }
+}
